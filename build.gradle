@@ -6,11 +6,6 @@
  */
  
 plugins {
-    id 'ru.vyarus.use-python' version '3.0.0'
-}
-
-
-task build(type: PythonTask) {
-    command = "setup.py sdist bdist_wheel"
+    id 'ru.vyarus.use-python' version '3.0.0' apply false
 }
 
