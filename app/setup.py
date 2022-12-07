@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-requirements = ["ipython>=6", "requests>=2"]
+requirements = ["ipython>=5.10.0", "requests>=2"]
 
 setup(
     name="helloworld",

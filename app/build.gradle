@@ -4,5 +4,5 @@ plugins {
 
 
 task build(type: PythonTask) {
-    command = "setup.py sdist bdist_wheel"
+    command = "setup.py build"
 }
